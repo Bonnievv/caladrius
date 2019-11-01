@@ -143,15 +143,15 @@ usage: run.py [-h] [--checkpoint-path CHECKPOINT_PATH] [--data-path DATA_PATH]
               [--test] [--max-data-points MAX_DATA_POINTS]
               [--accuracy-threshold ACCURACY_THRESHOLD]
 
-optional arguments:
+optional arguments (be aware of spelling):
   -h, --help            show this help message and exit
   --checkpoint-path CHECKPOINT_PATH
                         output path (default: ./runs)
-  --data-path DATA_PATH
+  --dataPath DATA_PATH
                         data path (default: ./data/Sint-Maarten-2017)
-  --run-name RUN_NAME   name to identify execution (default: <timestamp>)
+  --runName RUN_NAME   name to identify execution (default: <timestamp>)
   --log-step LOG_STEP   batch step size for logging information (default: 100)
-  --number-of-workers NUMBER_OF_WORKERS
+  --numberOfWorkers NUMBER_OF_WORKERS
                         number of threads used by data loader (default: 8)
   --disable-cuda        disable the use of CUDA (default: False)
   --cuda-device CUDA_DEVICE
@@ -160,9 +160,9 @@ optional arguments:
                         set a torch seed (default: 42)
   --input-size INPUT_SIZE
                         extent of input layer in the network (default: 32)
-  --number-of-epochs NUMBER_OF_EPOCHS
+  --numberOfEpochs NUMBER_OF_EPOCHS
                         number of epochs for training (default: 100)
-  --batch-size BATCH_SIZE
+  --batchSize BATCH_SIZE
                         batch size for training (default: 32)
   --learning-rate LEARNING_RATE
                         learning rate for training (default: 0.001)
